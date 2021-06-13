@@ -103,7 +103,7 @@ const RestaurantsList = props => {
                             onClick={findByName}
                         >
                             Search
-            </button>
+                        </button>
                     </div>
                 </div>
                 <div className="input-group col-lg-4">
@@ -121,7 +121,7 @@ const RestaurantsList = props => {
                             onClick={findByZip}
                         >
                             Search
-            </button>
+                        </button>
                     </div>
                 </div>
                 <div className="input-group col-lg-4">
@@ -140,7 +140,7 @@ const RestaurantsList = props => {
                             onClick={findByCuisine}
                         >
                             Search
-            </button>
+                        </button>
                     </div>
 
                 </div>
@@ -160,7 +160,7 @@ const RestaurantsList = props => {
                                     <div className="row">
                                         <Link to={"/restaurants/" + restaurant._id} className="btn btn-primary col-lg-5 mx-1 mb-1">
                                             View Reviews
-                  </Link>
+                                        </Link>
                                         <a target="_blank" href={"https://www.google.com/maps/place/" + address} className="btn btn-primary col-lg-5 mx-1 mb-1">View Map</a>
                                     </div>
                                 </div>
